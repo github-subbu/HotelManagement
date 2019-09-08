@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HotelBooking {
+namespace HotelManagement {
     
     
     public partial class RegistrationPage {

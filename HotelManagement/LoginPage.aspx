@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="HotelBooking.LoginPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="HotelManagement.LoginPage" %>
 
 <!DOCTYPE html>
 
@@ -38,7 +38,7 @@
             </tr>
         </table>
         <div>
-            <asp:Button ID="Button1" runat="server" Text="Login" />
+            <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click"/>
             
             <asp:Label ID="Label1" runat="server" Text=" New User Signup here" ></asp:Label>
         </div>
