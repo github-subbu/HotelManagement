@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HotelManagement {
+namespace HotelBooking {
     
     
     public partial class Site_Mobile {
