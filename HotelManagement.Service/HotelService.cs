@@ -25,7 +25,7 @@ namespace HotelManagement.Service
                 using (SqlCommand cmd = new SqlCommand())
                 {
                     
-                    cmd.CommandText = "Search";
+                    cmd.CommandText = "dbo.SearchHotel";
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = sqlConnection1;
 
