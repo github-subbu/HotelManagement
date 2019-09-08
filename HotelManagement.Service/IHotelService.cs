@@ -19,7 +19,7 @@ namespace HotelManagement.Service
 
         //to get application list to load in the search box
         [WebGet(BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json, UriTemplate = "HotelList")]
-        HotelList GetHotelList();
+        HotelLists GetHotelList();
 
     }
 }
