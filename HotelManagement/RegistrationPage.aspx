@@ -69,10 +69,6 @@
 </html>
 
 <script>
-
-    $().ready(function () {
-        // validate the comment form when it is submitted
-        $("#form1").validate();
-    });	
+	
 
 </script>
