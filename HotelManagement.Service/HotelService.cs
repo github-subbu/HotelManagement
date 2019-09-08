@@ -13,8 +13,9 @@ namespace HotelManagement.Service
 {
     public class HotelService: IHotelService
     {
-        public HotelLists GetHotelList()
+        public List<HotelLists> GetHotelList()
         {
+            List<HotelLists> TestList = new List<HotelLists>();
             HotelLists test = null;
 
             string connString = System.Configuration.ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
@@ -30,10 +31,7 @@ namespace HotelManagement.Service
 
                     sqlConnection1.Open();
 
-                    SqlDataReader reader = cmd.ExecuteReader();
-
-                    List<HotelLists> TestList = new List<HotelLists>();
-                    
+                    SqlDataReader reader = cmd.ExecuteReader();                    
 
                     while (reader.Read())
                     {
@@ -50,7 +48,7 @@ namespace HotelManagement.Service
                 }
             }
 
-            return test;
+            return TestList;
         }
     }
 }
