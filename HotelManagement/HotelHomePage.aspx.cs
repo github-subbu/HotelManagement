@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace HotelBooking
 {
-    public partial class Hotel_Home_Page : System.Web.UI.Page
+    public partial class HotelHomePage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

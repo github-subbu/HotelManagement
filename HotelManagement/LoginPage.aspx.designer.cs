@@ -10,7 +10,7 @@
 namespace HotelBooking {
     
     
-    public partial class Login_Page {
+    public partial class LoginPage {
         
         /// <summary>
         /// form1 control.

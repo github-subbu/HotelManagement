@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Add Hotel Page.aspx.cs" Inherits="HotelBooking.Add_Hotel_Page" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddHotelPage.aspx.cs" Inherits="HotelBooking.AddHotelPage" %>
 
 <!DOCTYPE html>
 

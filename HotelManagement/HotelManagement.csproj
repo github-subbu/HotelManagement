@@ -106,8 +106,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Add Hotel Page.aspx" />
-    <Content Include="Booking Page.aspx" />
+    <Content Include="AddHotelPage.aspx" />
+    <Content Include="BookingPage.aspx" />
     <Content Include="Bookings\UserBooking.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -129,8 +129,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="Hotel Home Page.aspx" />
-    <Content Include="Login Page.aspx" />
+    <Content Include="HotelHomePage.aspx" />
+    <Content Include="LoginPage.aspx" />
     <Content Include="Pages\LoginPage.aspx" />
     <Content Include="Pages\Registration.aspx" />
     <Content Include="RegistrationPage.aspx" />
@@ -169,12 +169,12 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add Hotel Page.aspx.cs">
-      <DependentUpon>Add Hotel Page.aspx</DependentUpon>
+    <Compile Include="AddHotelPage.aspx.cs">
+      <DependentUpon>AddHotelPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Add Hotel Page.aspx.designer.cs">
-      <DependentUpon>Add Hotel Page.aspx</DependentUpon>
+    <Compile Include="AddHotelPage.aspx.designer.cs">
+      <DependentUpon>AddHotelPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -185,12 +185,12 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Booking Page.aspx.cs">
-      <DependentUpon>Booking Page.aspx</DependentUpon>
+    <Compile Include="BookingPage.aspx.cs">
+      <DependentUpon>BookingPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Booking Page.aspx.designer.cs">
-      <DependentUpon>Booking Page.aspx</DependentUpon>
+    <Compile Include="BookingPage.aspx.designer.cs">
+      <DependentUpon>BookingPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Bookings\UserBooking.aspx.cs">
       <DependentUpon>UserBooking.aspx</DependentUpon>
@@ -223,19 +223,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Hotel Home Page.aspx.cs">
-      <DependentUpon>Hotel Home Page.aspx</DependentUpon>
+    <Compile Include="HotelHomePage.aspx.cs">
+      <DependentUpon>HotelHomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Hotel Home Page.aspx.designer.cs">
-      <DependentUpon>Hotel Home Page.aspx</DependentUpon>
+    <Compile Include="HotelHomePage.aspx.designer.cs">
+      <DependentUpon>HotelHomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login Page.aspx.cs">
-      <DependentUpon>Login Page.aspx</DependentUpon>
+    <Compile Include="LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login Page.aspx.designer.cs">
-      <DependentUpon>Login Page.aspx</DependentUpon>
+    <Compile Include="LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\LoginPage.aspx.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
