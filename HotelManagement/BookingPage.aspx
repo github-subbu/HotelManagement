@@ -6,11 +6,23 @@
 <head runat="server">
     <title>Booking Page</title>
     <style type="text/css">
-        
+        .center {
+            width: 50%;
+            height: 300px;
+            position: absolute;
+            left: 60%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+         .auto-style3 {
+            height: 146px;
+            background-color:Blue;
+        }
     </style>
 </head>
 <body>
-    <form id="form1" runat="server" class="auto-style1">
+    <form id="form1" runat="server" class="auto-style3">
+        <div class="center">
         <div> "Booking Page"</div>
         <div>
             <table class="auto-style2">
@@ -59,13 +71,13 @@
                         <asp:Button ID="Button1"  CssClass="myslimbtn" runat="server" Text="Book Now" />
                     </td>
                    
-                    <td class="auto-style3">
+                    <td >
                         <asp:Button ID="Button2" CssClass="myslimbtn"   runat="server" Text="Cancel Booking" />
                     </td>
                 </tr>
             </table>
         </div>
-    </form>
+            </div>    </form>
 </body>
 </html>
 

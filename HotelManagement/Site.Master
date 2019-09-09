@@ -53,7 +53,7 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/AddHotelPage">Add Hotel</a></li>
                         <li><a runat="server" href="~/BookingPage">Booking</a></li>
-                        <li><a runat="server" href="~/BookingPage">Booking</a></li>
+                        
 
                     </ul>
                 </div>
